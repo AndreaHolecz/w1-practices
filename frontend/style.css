@@ -8,7 +8,71 @@ h1{
     font-weight: 900;
 }
 
-div{font-weight: 100;
-    font-family: 'Roboto', sans-serif;
-    font-size: 80px;
+div{
+ width: 200px;
+ height: 200px;
+
+ padding-top: 8px;
+ padding-right: 80px;
+ padding-bottom: 120px;
+ padding-left: 40px;
+
+ border: 10px solid rgb(15, 7, 70);
+
+ margin-top: 50px;
+ margin-right: 5px;
+ margin-bottom: 100px;
+ margin-left: 10px;
+
 }
+span{
+
+display: inline-block;
+
+    width: 200px;
+    height: 200px;
+   
+    padding-top: 8px;
+    padding-right: 80px;
+    padding-bottom: 120px;
+    padding-left: 40px;
+   
+    border: 10px solid rgb(15, 7, 70);
+   
+    margin-top: 50px;
+    margin-right: 5px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+   }
+
+   button{
+       display: block;
+       position: fixed;
+
+       width: 300px;
+       height: 300px;
+
+       border: none;
+       border-radius: 150px;
+
+
+       padding-top: 4px;
+       padding-right: 0px;
+       padding-bottom: 0px;
+       padding-right: 0px;
+
+       margin-top: -150px;
+       margin-left: -150px;
+
+       left: 50%;
+       top: 50%;
+
+       background-color: darkgoldenrod;
+       color: darkslategray;
+       font-size: 400px;
+       text-transform: uppercase;
+       line-height: 300px;
+       font-family: "Roboto", sans-serif;
+       font-weight: 100;
+
+   }
